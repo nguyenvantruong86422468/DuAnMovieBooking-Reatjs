@@ -1,0 +1,19 @@
+.footer{
+    background-color: aliceblue;
+}
+.content{
+    list-style: none;
+    
+} 
+
+ul li a {
+    color: black;
+    list-style: none;
+}
+.content .top{
+    padding-left: 60px;
+}
+
+ul li a:hover {
+    color: green;
+}
