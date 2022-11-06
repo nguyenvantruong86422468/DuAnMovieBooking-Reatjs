@@ -15,7 +15,7 @@ export default function AdminLayout(props) {
     const renderUser = () => {
         if (localStorage.getItem(USER_LOGIN)) {
             let user = JSON.parse(localStorage.getItem(USER_LOGIN))
-            return <div style={{ cursor: "pointer",display:"Flex",alignItems:"center" }} className="d-flex text-dark">
+            return <div style={{ cursor: "pointer", display: "Flex", alignItems: "center" }} className="d-flex text-dark">
                 <NavLink to="/profile">
                     <Avatar size="large" icon={<img src="https://picsum.photos/200/300" alt="" />} />
                     <span className="pl-2 pr-4">
@@ -53,8 +53,8 @@ export default function AdminLayout(props) {
                     >
                         <div className="logo p-3" style={{ border: "1px solid gray" }}>
                             <NavLink to={"/home"}>
-                                <GitlabOutlined className="logo" style={{ fontSize: "40px" }} />
-                                <span style={{ color: "white", fontSize: "20px" }}>Cyber Cinema</span>
+                                {/* <GitlabOutlined className="logo" style={{ fontSize: "20px" }} /> */}
+                                <span style={{ color: "white", fontSize: "24px" }}> Booking Movie</span>
                             </NavLink>
 
                         </div>
@@ -64,14 +64,23 @@ export default function AdminLayout(props) {
                             defaultSelectedKeys={['1']}
                             items={[
                                 {
-                                    key:"danhSachPhim",
-                                    icon: <VideoCameraOutlined/>,
+                                    key: "danhSachPhim",
+                                    icon: <VideoCameraOutlined />,
                                     label: <NavLink to={"/admin/film"}>Danh Sách Phim</NavLink>,
-                                    children:[{
-                                        key:"themPhimmoi",
-                                        label:<NavLink to={"/admin/film/addfilm"}>Thêm phim mới</NavLink>,
-                                        icon: <UploadOutlined/>
-                                    }]
+
+                                }
+                            ]}
+                        />
+                        <Menu
+                            theme="light"
+                            mode="inline"
+                            defaultSelectedKeys={['2']}
+                            items={[
+                                {
+                                    key: "themPhimmoi",
+                                    icon: <GitlabOutlined />,
+                                    label: <NavLink to={"/admin/film/addfilm"}>Thêm phim mới</NavLink>,
+
                                 }
                             ]}
                         />
@@ -103,13 +112,7 @@ export default function AdminLayout(props) {
                                 <props.component {...propsRoute} />
                             </div>
                         </Content>
-                        <Footer
-                            style={{
-                                textAlign: 'center',
-                            }}
-                        >
-                            <MainFooter/>
-                        </Footer>
+
                     </Layout>
                 </Layout>
             }}
