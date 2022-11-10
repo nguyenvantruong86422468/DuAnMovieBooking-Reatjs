@@ -1,14 +1,14 @@
 import { Col, Row } from 'antd'
 import React from 'react'
 import '../Footer/Footer.css'
-import Subfooter from './Subfooter'
+
 export default function MainFooter() {
   return (
     <div >
-        <Subfooter/>
+        
         <Row className=' footer text-center'>
-          <Col span={7}>
-            <h5>RẠP Phim:</h5>
+          <Col span={6}>
+            <h5>Rạp Phim:</h5>
             <ul className='content'>
               <li><a href="#!">Giới Thiệu</a> </li>
               <li><a href="#!">Tiện Ích Online</a></li>
@@ -16,7 +16,7 @@ export default function MainFooter() {
               <li><a href="#!">Tuyển Dụng</a></li>
             </ul>
           </Col>
-          <Col span={7}>
+          <Col span={6}>
             <h5>Điều Khoản Sử Dụng:</h5>
             <ul className='content'>
               <li><a href="#!">Điều Khoản Chung</a> </li>

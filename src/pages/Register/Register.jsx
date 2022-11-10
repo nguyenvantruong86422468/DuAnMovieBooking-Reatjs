@@ -66,7 +66,7 @@ export default function Register() {
             <Logo></Logo>
           </NavLink>
           <p className="font-weight-bold my-4">
-            Đăng nhập để được nhiều ưu đãi, mua vé và bảo mật thông tin!
+            Đăng Ký để được nhiều ưu đãi, mua vé và bảo mật thông tin!
           </p>
         </div>
       </div>

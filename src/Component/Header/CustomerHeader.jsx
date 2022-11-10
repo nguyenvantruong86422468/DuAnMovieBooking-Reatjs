@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  GitlabOutlined,
+  
   LogoutOutlined
 } from "@ant-design/icons";
 
@@ -48,7 +48,7 @@ export default function CustomerHeader() {
         <div className="container-fluid px-5">
           <NavLink to={"/home"}>
             <span className="navbar-brand" style={{ fontSize: 25, fontWeight: 600 }}>
-              <GitlabOutlined style={{ fontSize: "70px", display: "block" }} />
+              
             </span>
           </NavLink>
 

@@ -65,8 +65,7 @@ export default function Profile() {
               <Col span={12}>{userLogin.soDT}</Col>
               <Col span={12}><h5>Mã loại người dùng :</h5></Col>
               <Col span={12}>{userLogin.maLoaiNguoiDung}</Col>
-              <Col span={12}><h5>Mã nhóm :</h5></Col>
-              <Col span={12}>{userLogin.maNhom}</Col>
+             
             </Row>
           </Card>
 

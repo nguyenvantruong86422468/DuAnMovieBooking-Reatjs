@@ -20,7 +20,7 @@ export default function AdminLayout(props) {
                     <Avatar size="large" icon={<img src="https://picsum.photos/200/300" alt="" />} />
                     <span className="pl-2 pr-4">
                         {user.hoTen}
-                        /
+                        
                         {user.maLoaiNguoiDung}
                     </span>
                 </NavLink>
