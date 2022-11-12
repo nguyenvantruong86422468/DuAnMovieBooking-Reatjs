@@ -37,10 +37,10 @@ export default function MainFooter() {
           <Col span={6.8}>
             <h5>Chăm Sóc Khách Hàng:</h5>
             <ul className='content'>
-              <li><a href="#!">Hotline: 1900 0000</a> </li>
+              <li><a href="#!">Hotline: 1900 1000</a> </li>
               <li><a href="#!">Giờ Làm Việc: 8:00 - 22:00</a></li>
               <li><a href="#!">Các Ngày Lễ Tết</a> </li>
-              <li><a href="#!">hoidap</a></li>
+              <li><a href="#!">Hỏi Đáp</a></li>
             </ul>
           </Col>
         </Row>
