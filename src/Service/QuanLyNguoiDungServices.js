@@ -3,7 +3,7 @@ import { Service } from "./Service";
 
 export class QuanLyNguoiDungServices extends Service {
     dangNhap = (thongTinDangNhap) => {
-        return this.post(`QuanLyNguoiDung/DangNhap`, thongTinDangNhap);
+        return this.post(`/QuanLyNguoiDung/DangNhap`, thongTinDangNhap);
     };
     dangKy = (thongTinDangKy) => {
         return this.post(`/QuanLyNguoiDung/DangKy`, thongTinDangKy);
