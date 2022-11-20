@@ -8,7 +8,7 @@ export class MovieService extends Service{
     GetMovieList = (name = "") => {
         if(name.trim() !== ""){
             return this.get(`/api/QuanLyPhim/LayDanhSachPhim?maNhom=${GROUP_ID}&tenPhim=${name}`)
-        }else return this.get(`/api/QuanLyPhim/LayDanhSachPhim?maNhom${GROUP_ID}`)
+        }else return this.get(`/api/QuanLyPhim/LayDanhSachPhim?maNhom=${GROUP_ID}`)
         
     }
     GetMovieInfo = (id) => {

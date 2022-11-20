@@ -5,7 +5,7 @@ export class TheaterService extends Service{
         return this.get(`/api/QuanLyRap/LayThongTinLichChieuHeThongRap`)
     }
     GetTheaterSystem = () => {
-        return this.get(`/api/QuanLyRap/LayThongTinHeThongRap`)
+        return this.get("/api/QuanLyRap/LayThongTinHeThongRap")
     }
     GetTheaterGroup = (id) => {
         return this.get(`/api/QuanLyRap/LayThongTinCumRapTheoHeThong?maHeThongRap=${id}`)
