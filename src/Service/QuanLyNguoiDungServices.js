@@ -3,13 +3,13 @@ import { Service } from "./Service";
 
 export class QuanLyNguoiDungServices extends Service {
     dangNhap = (thongTinDangNhap) => {
-        return this.post(`/QuanLyNguoiDung/DangNhap`, thongTinDangNhap);
+        return this.post(`/api/QuanLyNguoiDung/DangNhap`, thongTinDangNhap);
     };
     dangKy = (thongTinDangKy) => {
-        return this.post(`/QuanLyNguoiDung/DangKy`, thongTinDangKy);
+        return this.post(`/api/QuanLyNguoiDung/DangKy`, thongTinDangKy);
     };
     GetTicketOrdered = () => {
-        return this.post(`/QuanLyNguoiDung/ThongTinTaiKhoan`)
+        return this.post(`/api/QuanLyNguoiDung/ThongTinTaiKhoan`)
     }
 }
 export const quanLyNguoiDungServices = new QuanLyNguoiDungServices();

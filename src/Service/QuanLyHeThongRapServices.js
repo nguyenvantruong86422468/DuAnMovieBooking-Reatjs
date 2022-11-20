@@ -7,7 +7,7 @@ export class QuanLyHeThongRapServices extends Service {
         super();
     }
     layThongTinLichChieu = (id) => {
-        return this.get(`/QuanLyRap/LayThongTinLichChieuPhim?MaPhim=${id}`);
+        return this.get(`/api/QuanLyRap/LayThongTinLichChieuPhim?MaPhim=${id}`);
     };
 
 }

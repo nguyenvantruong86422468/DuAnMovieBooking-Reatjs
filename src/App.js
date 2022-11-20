@@ -1,7 +1,7 @@
 import 'antd/dist/antd.min.css';
 import './App.css';
 import "./Component/Button/Buttoncss.css"
-import "./Assets/css/iindex.css";
+import "./Assets/css/index.css";
 import "./Component/Logo/Logo.css"
 
 import CustomerLayout from './layout/CustomerLayout';

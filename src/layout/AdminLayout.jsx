@@ -94,7 +94,7 @@ export default function AdminLayout(props) {
                                 display: "flex",
                                 justifyContent: "space-between"
                             }}
-                        ><h1>Trang Quản Lý Hệ Thống</h1>
+                        ><h1>Quản Lý Hệ Thống</h1>
                             {renderUser()}
                         </Header>
                         <Content

@@ -1,9 +1,7 @@
 
 .content{
-    list-style: none;
-    
+    list-style: none;  
 } 
-
 ul li a {
     color: black;
     list-style: none;
@@ -11,7 +9,6 @@ ul li a {
 .content .top{
     padding-left: 60px;
 }
-
 ul li a:hover {
-    color: green;
+    color: rgb(171, 16, 16);
 }

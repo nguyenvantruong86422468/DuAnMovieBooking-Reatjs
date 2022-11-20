@@ -8,11 +8,11 @@ export class QuanLyDatVeServices extends Service {
         super();
     }
     layDanhSachPhongVe = (maLichChieu) => {
-        return this.get(`/QuanLyDatVe/LayDanhSachPhongVe?MaLichChieu=${maLichChieu}`);
+        return this.get(`/api/QuanLyDatVe/LayDanhSachPhongVe?MaLichChieu=${maLichChieu}`);
     };
 
     datVe = (thongTinDatVe = new ThongTinDatVe) => {
-        return this.post(`/QuanLyDatVe/DatVe`, thongTinDatVe);
+        return this.post(`/api/QuanLyDatVe/DatVe`, thongTinDatVe);
     };
 
 }

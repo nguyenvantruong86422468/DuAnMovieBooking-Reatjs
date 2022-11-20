@@ -1,9 +1,5 @@
 import React from "react";
-import {
-  
-  LogoutOutlined
-} from "@ant-design/icons";
-
+import { LogoutOutlined} from "@ant-design/icons";
 import { Avatar, Button, Space } from "antd"
 import { NavLink } from "react-router-dom";
 import { USER_LOGIN } from "../../ultil/setting";
